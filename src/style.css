@@ -1,3 +1,33 @@
 h1 {
-  color: red;
+}
+
+.weather-app {
+  padding: 10px 10px 10px 10px;
+  margin: 60px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  background: #ffffff;
+}
+
+body {
+  background-color: #e3e8f8;
+}
+
+span.temperature {
+  font-size: 50px;
+}
+
+span.unit {
+  font-size: 50px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #9aaef3;
+  border-color: #9aaef3;
+}
+
+.btn-primary :hover {
+  background-color: #8099f5;
+  border-color: #8099f5;
 }

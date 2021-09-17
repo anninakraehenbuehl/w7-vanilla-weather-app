@@ -1,9 +1,12 @@
 h1 {
 }
 
+.weather-app-wrapper {
+  margin: 60px auto;
+}
+
 .weather-app {
   padding: 10px 10px 10px 10px;
-  margin: 60px auto;
   border-radius: 10px;
   max-width: 600px;
   background: #ffffff;
@@ -14,11 +17,21 @@ body {
 }
 
 span.temperature {
-  font-size: 50px;
+  color: #212121;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 1;
 }
 
 span.unit {
-  font-size: 50px;
+  color: #212121;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: 10px;
 }
 
 .btn-primary {
@@ -30,4 +43,40 @@ span.unit {
 .btn-primary :hover {
   background-color: #8099f5;
   border-color: #8099f5;
+}
+
+.weather-app ul {
+  padding: 0;
+  margin: 0;
+}
+
+.weather-app li {
+  margin-bottom: 5px;
+  color: rgba(25, 21, 43, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.copyright {
+  font-size: 15px;
+  color: rgba(25, 21, 43, 0.4);
+}
+
+img {
+  padding: 15px;
+}
+
+li {
+  text-transform: capitalize;
 }
